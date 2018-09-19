@@ -4,7 +4,7 @@ body {
     font-size: 14px;
     font-family: 'Karla', sans-serif;
     line-height: 20px;
-    color: #eee;
+    color: #8f8d8e;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
 }
@@ -62,6 +62,10 @@ ol {
 
 div {
 	display: block !important;
+}
+
+hr {
+	color: white;
 }
 
 .title {
@@ -151,7 +155,7 @@ div {
 /*--- About ---*/
 
 #about {
-	margin-top: 150px;
+	margin-top: 100px;
 	background-color: #eee;
 	color: #8f8d8e;
     height: 500px;
@@ -171,6 +175,16 @@ div {
     text-transform: uppercase;
 }
 
+.column {
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /*-- Skills --*/
 #skills {
@@ -202,7 +216,8 @@ div {
 .resume-list b {
 	font-weight: bold;
 	font-family: 'Karla', sans-serif;
-	font-size: 16px;	
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;	
 }
 
 .resume-list li {
@@ -281,4 +296,10 @@ div {
 	.portfolio {
    		width: 90%;
 	}
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
