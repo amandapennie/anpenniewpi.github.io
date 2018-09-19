@@ -4,29 +4,11 @@ body {
     font-size: 14px;
     font-family: 'Karla', sans-serif;
     line-height: 20px;
-    color: #333333;
-    background-color: #ffffff;
+    color: #eee;
+    background-color: #fff;
     -webkit-font-smoothing: antialiased;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: #40424a;
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-}
-
-h2 {
-	font-size: 48px;
-}
-
-h3 {
-	font-size: 30px;
-}
 
 a {
 	color: #333;
@@ -57,6 +39,11 @@ a:focus {
 
 b {
 	font-weight: bold;
+	font-family: 'Karla', sans-serif;
+}
+
+text {
+	font-family: 'Karla', sans-serif;
 }
 
 ul,
@@ -68,7 +55,7 @@ ol {
 }
 
 div {
-	display: block;
+	display: block !important;
 }
 
 .title {
@@ -91,7 +78,7 @@ div {
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    background-color: #fafafa;
+    background-color: #fff;
     line-height: 100px;
     font-size: 15px;
     z-index: 1000;
@@ -110,8 +97,8 @@ div {
 	z-index: 30000;
 }
 
-a #nav-link {
-	color: #ccc;
+#nav-link {
+	color: #eee;
     position: relative;
     display: block;
     z-index: 1000;
@@ -158,11 +145,11 @@ a #nav-link {
 /*--- About ---*/
 
 #about {
-	background-color: #4C5364;
+	background-color: #eee;
+	color: #8f8d8e;
     width: 100%;
     padding-bottom: 50px;
     text-align: right;
-    overflow: hidden;
 }
 
 #about p {
@@ -176,6 +163,7 @@ a #nav-link {
     text-transform: uppercase;
 }
 
+
 /*-- Skills --*/
 #skills {
     background-color: #C26868;
@@ -185,7 +173,8 @@ a #nav-link {
 
 /*-- Education and Work --*/
 #resume {
-    background-color: #ddd;
+    background-color: #ff9861;
+    color: #fff;
     height: auto;
     margin-top: -30px;
     padding-top: 60px;
@@ -196,7 +185,8 @@ a #nav-link {
 
 /*-- Projects --*/
 #projects {
-    background: #eee;
+    background: #8f8d8e;
+    color: #fff;
     height: auto;
     margin-top: -30px;
     text-align: center;
