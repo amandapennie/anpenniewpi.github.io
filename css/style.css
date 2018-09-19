@@ -40,12 +40,12 @@ a:focus {
 b {
 	font-weight: bold;
 	font-family: 'Karla', sans-serif;
-	font-size: 9px;
+	font-size: 13px;
 }
 
 text {
 	font-family: 'Karla', sans-serif;
-	font-size: 9px;
+	font-size: 13px;
 }
 
 ul,
@@ -149,7 +149,7 @@ div {
 #about {
 	background-color: #eee;
 	color: #8f8d8e;
-    width: 100%;
+    width: 400px;
     padding-bottom: 50px;
     text-align: right;
     height: auto;
@@ -171,7 +171,7 @@ div {
 #skills {
     background-color: #eee;
     color: #ff9681;
-    height: 1020px;
+    height: 800px;
     margin-top: -30px;
 }
 
@@ -190,7 +190,7 @@ div {
 /*-- Projects --*/
 #projects {
     background: #8f8d8e;
-    color: #fff;
+    color: #8f8d8e;
     height: auto;
     margin-top: -30px;
     text-align: center;
