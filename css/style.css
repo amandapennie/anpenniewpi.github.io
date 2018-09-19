@@ -49,7 +49,7 @@ text {
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 24px;
 }
 
 ul,
@@ -70,7 +70,7 @@ div {
 	letter-spacing: 0.3em;
 	font-weight: 700;
 	padding-bottom: 50px;
-	font-size: 11px;
+	font-size: 14px;
 	text-transform: uppercase;
 }
 
@@ -151,6 +151,7 @@ div {
 /*--- About ---*/
 
 #about {
+	margin-top: 150px;
 	background-color: #eee;
 	color: #8f8d8e;
     height: 500px;
@@ -198,6 +199,12 @@ div {
 	border-left: 2px solid #40424a;
 }
 
+.resume-list b {
+	font-weight: bold;
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;	
+}
+
 .resume-list li {
 	margin-bottom: 120px;
 	position: relative;
@@ -220,14 +227,13 @@ div {
 }
 
 .resume-list h2 {
-	font-size: 40px;
+	font-size: 28px;
 	margin-bottom: 10px;
 }
 
 .resume-list h4 {
 	font-size: 16px;
 	text-transform: uppercase;
-	color: #808181;
 	margin-top: 10px;
 	margin-bottom: 45px;
 }
@@ -244,7 +250,7 @@ div {
     margin-top: -30px;
     text-align: center;
     padding: 60px 0 60px 0;
-    font-size: 26px;
+    font-size: 13px;
     line-height: 40px;
 }
 
